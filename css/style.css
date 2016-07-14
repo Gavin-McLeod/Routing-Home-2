@@ -59,27 +59,32 @@ body {
     margin-bottom: 0;
     border-radius: 0;
     background-image: url("../img/ministry1.png");
-    background-size:contain;
+    background-image: url("../img/fall_1140.jpg");
     background-position:center;
     background-repeat:no-repeat;
+    min-width: 245px;
 }
 
 .jumbotron DIV {
     color:#fff;
-    background-color: rgba(250, 250, 250, 0.50);
+    background-color: rgba(50, 50, 50, 0.50);
     padding:10px;
     border-radius: 8px;
-     height:auto;
+    height:auto;
     margin:auto;
 }
 .jumbotron .container H1 {
 
     margin:0px;
-    color:white;
 }
 
 .jumbotron .btn-lg {
     border-radius: 0;
+    min-width: 183px;
+}
+
+#access_row {
+    margin-top:15px;
 }
 
 /* FOOTER FORMATTING */
@@ -158,6 +163,7 @@ ul.inline li a:link, nav ul.inline li a:visited {
     padding: 0;
 }
 
+
 @media (min-width: 992px) {
     .row > .content-box+.content-box {
         padding-left: 15px;
@@ -167,7 +173,7 @@ ul.inline li a:link, nav ul.inline li a:visited {
 /* CONTENT TABLE FORMATTING */
 .table-responsive {
     overflow-x: visible;
-    overflow-y: vilible;
+    overflow-y: visible;
     border: none;
 }
 
@@ -202,6 +208,7 @@ ul.inline li a:link, nav ul.inline li a:visited {
     border-left: 1px solid #e3e3e3;
 }
 
+
 @media (max-width: 767px) {
     .table-responsive {
         width: 100%;
@@ -217,6 +224,26 @@ ul.inline li a:link, nav ul.inline li a:visited {
         border-left: none;
         border-top: 1px solid #e3e3e3;
     }  
+    
+    .jumbotron {
+        background-image: none;
+    }
+    .jumbotron DIV {
+        color:#000;
+        background-color: #f1f1f1;
+        padding:10px;
+        border-radius: 8px;
+        height:auto;
+        margin:auto;
+    }
+    
+    #jumbotrontitle {
+        display:none;
+    }
+    
+    #access_row {
+        margin-top:5px;
+    }
 }
 
 
