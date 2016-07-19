@@ -1,0 +1,6 @@
+{
+  "name": "Routing-home-2",
+  "tagline": "work for 2nd landing page for that routing thing",
+  "body": "## 2nd landing page for that routing thing.\r\nThe routing thing needs a new landing page and this space will be used for shared development and issue tracking and listing\r\n\r\nThis page is to ultimately be incorporated into the application site as it's default landing page.  For that a number of changes will need to be made to support it's new location.  Isolated development away from the eventual location means pathing for images, css, and included libraries will need to be edited as part of the deployment.\r\n\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
