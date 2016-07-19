@@ -58,11 +58,11 @@ body {
 .jumbotron {
     margin-bottom: 0;
     border-radius: 0;
-    background-image: url("../img/ministry1.png");
-    background-image: url("../img/fall_1140.jpg");
-    background-position:center;
+    /* background-image: url("../img/ministry1.png");
+    background-image: url("../img/fall_1140.jpg");  */
+    background-image: url('../img/RESIZED-transport-truck-driving-along-highway-99-bc-canada.jpg');
+    background-position:left;
     background-repeat:no-repeat;
-    min-width: 245px;
 }
 
 .jumbotron DIV {
