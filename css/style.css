@@ -16,10 +16,11 @@ body {
     color: #494949;
     font-size: 14px;
 }
-
+/*
 body > .container {
     max-width:1024px;
 }
+*/
 
 .row {
     margin: 0;
@@ -62,10 +63,11 @@ body > .container {
 .jumbotron {
     margin-bottom: 0;
     border-radius: 0;
-    /* background-image: url("../img/ministry1.png");
-    background-image: url("../img/fall_1140.jpg");  */
-    background-image: url('../img/Truck_Hwy99.jpg');
-    background-position:left;
+    background-image: url("../img/bluetruck2.jpg");
+    /*background-image: url("../img/fall_1140.jpg");  
+    background-image: url('../img/Truck_Hwy99.jpg');*/
+    background-position: center top;
+    background-size: cover;
     background-repeat:no-repeat;
 }
 
@@ -87,6 +89,14 @@ body > .container {
     min-width: 183px;
 }
 
+.blue-heading-bar {
+    background: #003366; /* Old browsers */
+    background: -moz-linear-gradient(top, #003366 0%, #2989d8 100%, #003366 100%, #003366 100%, #2989d8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #003366 0%,#2989d8 100%,#003366 100%,#003366 100%,#2989d8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #003366 0%,#2989d8 100%,#003366 100%,#003366 100%,#2989d8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003366', endColorstr='#2989d8',GradientType=0 );
+}
+    
 #access_row {
     margin-top:15px;
 }
