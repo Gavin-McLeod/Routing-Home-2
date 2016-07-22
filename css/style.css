@@ -63,12 +63,13 @@ body > .container {
 .jumbotron {
     margin-bottom: 0;
     border-radius: 0;
-    background-image: url("../img/bluetruck2.jpg");
+    background-image: url("../img/stock-photo-58451166-transport-truck-driving-along-highway-99-bc-canada.jpg");
     /*background-image: url("../img/fall_1140.jpg");  
     background-image: url('../img/Truck_Hwy99.jpg');*/
-    background-position: center top;
+    background-position: bottom right;
     background-size: cover;
     background-repeat:no-repeat;
+    background-position-y: -280px;
 }
 
 .jumbotron DIV {
