@@ -61,16 +61,16 @@ body > .container {
 .jumbotron {
     margin-bottom: 0;
     border-radius: 0;
-    background-image: url("../img/stock-photo-58451166-transport-truck-driving-along-highway-99-bc-canada - CROPPED3.jpg");
+    background-image: url("../img/Loaded-Logging-Truck-on-Hwy-near-Cache-Creek.jpg");
     /*background-image: url("../img/fall_1140.jpg");  
     background-image: url('../img/Truck_Hwy99.jpg');*/
-    background-position: bottom right;
+    background-position: center right;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .jumbotron DIV {
     color: #fff;
-    background-color: rgba(50, 50, 50, 0.50);
+    background-color: rgba(100,100,100, 0.30);
     padding: 10px;
     border-radius: 8px;
     height: auto;
@@ -208,6 +208,7 @@ nav ul.inline li a:visited {
 .featureBoxes-3col .featureBox+.featureBox {
     border-left: 1px solid #e3e3e3;
 }
+
 @media (max-width: 590px) {
     .table-responsive {
         width: 100%;
@@ -223,7 +224,7 @@ nav ul.inline li a:visited {
         border-left: none;
         border-top: 1px solid #e3e3e3;
     }
-    .jumbotron {
+/*    .jumbotron {
         background-image: none;
     }
     .jumbotron DIV {
@@ -237,7 +238,24 @@ nav ul.inline li a:visited {
     #jumbotrontitle {
         display: none;
     }
+    */
     #access_row {
         margin-top: 5px;
     }
 }
+@media (max-width: 319px) {
+
+.jumbotron {
+    background-image: none;
+}
+    .jumbotron DIV {
+        color: #000;
+        background-color: #f1f1f1;
+        padding: 10px;
+        border-radius: 8px;
+        height: auto;
+        margin: auto;
+    }
+    #jumbotrontitle {
+        display: none;
+    }
