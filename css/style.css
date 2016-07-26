@@ -15,11 +15,6 @@ body {
     font-size: 14px;
 }
 
-/*
-body > .container {
-    max-width:1024px;
-}
-*/
 
 .row {
     margin: 0;
@@ -224,21 +219,7 @@ nav ul.inline li a:visited {
         border-left: none;
         border-top: 1px solid #e3e3e3;
     }
-/*    .jumbotron {
-        background-image: none;
-    }
-    .jumbotron DIV {
-        color: #000;
-        background-color: #f1f1f1;
-        padding: 10px;
-        border-radius: 8px;
-        height: auto;
-        margin: auto;
-    }
-    #jumbotrontitle {
-        display: none;
-    }
-    */
+
     #access_row {
         margin-top: 5px;
     }
